@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <!--box icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--link swipwer css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie'></i>movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!--menu-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">home</a>
+            <li><a href="#movie">movies</a>
+            <li><a href="#coming">coming</a>
+            <li><a href="#newsletter">newsletter</a></li>
+        </ul>
+        <a href="#" class="btn">sign In</a>
+    </header>
+    <!--home-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+              <img src="images/home1.jpg" alt="">
+              <div class="home-text">
+                <span>MARVEL UNIVERSE</span>
+                <h1>Avengers: <br>infinity war</h1>
+                <a href="#" class="btn">Book now</a>
+                <a href="#" class="play">
+                    <i class='bx bx-play'></i>
+                </a>
+              </div>
+            </div>
+
+            <!--box2-->
+
+            <div class="swiper-slide container">
+                <img src="images/home2.jpg" alt="" class="avengimg">
+                <div class="home-text">
+                  <span>AVENGERS INFINITY WAR</span>
+                  <h1>venom:Let there <br>be carnage</h1>
+                  <a href="#" class="btn">Book now</a>
+                  <a href="#" class="play">
+                      <i class='bx bx-play'></i>
+                  </a>
+                </div>
+              </div>
+            
+          </div>
+
+          
+          <div class="swiper-pagination"></div>
+
+    </section>
+    <!--swipper js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!--link to custom js-->
+    <script src="main.js"></script>
+</body>
+</html>
