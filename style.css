@@ -385,7 +385,7 @@ header.shadow .logo{
     .movies-container{
         grid-template-columns: repeat(auto-fit,minmax(140px,auto));
     }
-    .coming-container{
+    .coming-container .owl-theme .box{
         width: auto;
     }
     .box .box-img{
