@@ -422,7 +422,7 @@ header.shadow .logo{
         width: auto;
     }
 }
-/**@media (max-width:384px){
+@media (max-width:384px){
     .header{
         padding: 12px 4%;
     }
@@ -473,4 +473,4 @@ header.shadow .logo{
     .coming-container .box-img{
         width: 190px;
     }
-}*/
+}
