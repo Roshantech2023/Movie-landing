@@ -412,7 +412,7 @@ header.shadow .logo{
         width: auto;
     }
 }
-@media(max-width:198){
+@media(max-width:384){
     .coming-container{
         width: auto;
     }
