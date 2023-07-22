@@ -386,7 +386,12 @@ header.shadow .logo{
         grid-template-columns: repeat(auto-fit,minmax(140px,auto));
     }
     .coming-container .owl-theme .box{
-        width: auto;
+        display: grid;
+        gap: 1rem;
+        max-width: 968px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
     }
     .box .box-img{
         height: auto;
