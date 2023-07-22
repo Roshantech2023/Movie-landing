@@ -368,7 +368,7 @@ header.shadow .logo{
         row-gap: 1rem;
     }
 }
-@media(max-width:370px){
+@media(max-width:384px){
     header{
         padding: 6px 4%;
     }
